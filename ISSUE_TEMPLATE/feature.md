@@ -1,0 +1,38 @@
+name: "🧱 Feature"
+description: Create a new feature issue.
+title: "🧱 <title>"
+labels: [
+  "feature"
+]
+body:
+  - type: input
+    id: due-date
+    attributes:
+      label: "Due Date"
+      description: Enter a completion date
+  - type: textarea
+    id: description
+    attributes:
+      label: "Overview"
+      description: Please enter an overview of the feature
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Mockups"
+      description: If applicable, add mockups.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Steps"
+      description: Add steps required to complete the feature
+      render: bash
+    validations:
+      required: false
