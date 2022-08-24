@@ -1,3 +1,10 @@
+---
+name: 🧪 Pull Request
+description: Create a pull request
+title: 🧪 <title>
+labels: ["bug"]
+---
+
 🎟️ Issue Link
 
 ## Description

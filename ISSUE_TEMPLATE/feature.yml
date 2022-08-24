@@ -1,9 +1,7 @@
-name: "🧱 Feature"
+name: 🧱 Feature
 description: Create a new feature issue.
-title: "🧱 <title>"
-labels: [
-  "feature"
-]
+title: 🧱 <title>
+labels: ["feature"]
 body:
   - type: input
     id: due-date
