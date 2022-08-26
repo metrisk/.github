@@ -1,6 +1,6 @@
-name: 🧱 Feature
+name: 🚧 Feature
 description: Create a new feature issue.
-title: 🧱 <title>
+title: 🚧 <title>
 labels: ["feature"]
 body:
   - type: input
@@ -8,14 +8,37 @@ body:
     attributes:
       label: "Due Date"
       description: Enter a completion date
+  - type: input
+    id: request
+    attributes:
+      label: "Requested By"
+      description: Who requested this feature?
+    validations:
+      required: false
   - type: textarea
     id: description
     attributes:
       label: "Overview"
       description: Please enter an overview of the feature
-      placeholder: Short and explicit description of your incident...
+      placeholder: Details of the proposed feature
     validations:
       required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Steps"
+      description: Add steps required to complete the feature
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: deps
+    attributes:
+      label: "Dependencies"
+      description: Does this feature depend on any other items being completed first?
+      render: bash
+    validations:
+      required: false
   - type: textarea
     id: screenshot
     attributes:
@@ -23,14 +46,6 @@ body:
       description: If applicable, add mockups.
       value: |
         ![DESCRIPTION](LINK.png)
-      render: bash
-    validations:
-      required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: "Steps"
-      description: Add steps required to complete the feature
       render: bash
     validations:
       required: false

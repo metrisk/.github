@@ -46,7 +46,7 @@ body:
     id: browsers
     attributes:
       label: "Browsers"
-      description: What browsers are you seeing the problem on ?
+      description: What browsers are you seeing the problem on?
       multiple: true
       options:
         - Firefox
@@ -57,14 +57,15 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: os
+    id: severity
     attributes:
-      label: "OS"
-      description: What is the impacted environment ?
+      label: "Severity"
+      description: What is the severity of the bug?
       multiple: true
       options:
-        - Windows
-        - Linux
-        - Mac
+        - Cosmetic
+        - Minor
+        - Major
+        - Blocker
     validations:
       required: false

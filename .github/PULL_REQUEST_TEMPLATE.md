@@ -1,11 +1,6 @@
----
-name: 🧪 Pull Request
-description: Create a pull request
-title: 🧪 <title>
-labels: ["bug"]
----
+🎟️ Fixes #
 
-🎟️ Issue Link
+## Dependencies
 
 ## Description
 
@@ -15,7 +10,7 @@ labels: ["bug"]
 
 ## Tests
 
-Display proof of tests that have been added to prove functionality
+Display proof of tests that have been added to prove functionality.
 
 ## Screenshots (if applicable)
 
