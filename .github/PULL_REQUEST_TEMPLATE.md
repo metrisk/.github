@@ -1,17 +1,17 @@
 🎟️ Fixes #
 
-## Dependencies
+### Dependencies
 
-## Description
+### Description
 
-## How Has This Been Tested?
+### How Has This Been Tested?
 
-## Changes to Core Features
+### Changes to Core Features
 
-## Tests
+### Tests
 
 Display proof of tests that have been added to prove functionality.
 
-## Screenshots (if applicable)
+### Screenshots (if applicable)
 
-## Notes
+### Notes
