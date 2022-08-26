@@ -1,5 +1,5 @@
 name: 🚧 Feature
-description: Create a new feature issue.
+description: Create a new feature request
 title: 🚧 <title>
 labels: ["feature"]
 body:
@@ -28,7 +28,6 @@ body:
     attributes:
       label: "Steps"
       description: Add steps required to complete the feature
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -36,7 +35,6 @@ body:
     attributes:
       label: "Dependencies"
       description: Does this feature depend on any other items being completed first?
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -46,6 +44,5 @@ body:
       description: If applicable, add mockups.
       value: |
         ![DESCRIPTION](LINK.png)
-      render: bash
     validations:
       required: false

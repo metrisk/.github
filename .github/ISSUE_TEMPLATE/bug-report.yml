@@ -1,5 +1,5 @@
 name: 🐞 Bug Report
-description: Create a bug issue
+description: Report a bug
 title: 🐞 <title>
 labels: ["bug"]
 body:
@@ -31,7 +31,6 @@ body:
       description: If applicable, add screenshots to help explain your problem.
       value: |
         ![DESCRIPTION](LINK.png)
-      render: bash
     validations:
       required: false
   - type: textarea
@@ -68,4 +67,4 @@ body:
         - Major
         - Blocker
     validations:
-      required: false
+      required: true
