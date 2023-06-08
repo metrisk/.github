@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: Report a bug
-title: 🐞 <title>
+title: 🐞 
 labels: ["bug"]
 body:
   - type: textarea
@@ -29,8 +29,7 @@ body:
     attributes:
       label: "Screenshots"
       description: If applicable, add screenshots to help explain your problem.
-      value: |
-        ![DESCRIPTION](LINK.png)
+      placeholder: ![DESCRIPTION](LINK.png)
     validations:
       required: false
   - type: textarea
