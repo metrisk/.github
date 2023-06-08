@@ -1,6 +1,6 @@
 name: 🚧 Feature
 description: Create a new feature request
-title: 🚧 <title>
+title: 🚧 
 labels: ["feature"]
 body:
   - type: input
