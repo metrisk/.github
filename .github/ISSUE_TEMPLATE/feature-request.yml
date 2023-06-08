@@ -24,25 +24,30 @@ body:
     validations:
       required: true
   - type: textarea
+    id: endpoint
+    attributes:
+      label: "Endpoint"
+      description: State the endpoint, request and response
+      value: |
+        GET /
+      
+        #### Request
+        
+        ````json
+        {}
+        ````
+        
+        #### Response
+        200
+        ```json
+        {}
+        ```
+    validations:
+      required: false
+  - type: textarea
     id: logs
     attributes:
       label: "Steps"
       description: Add steps required to complete the feature
-    validations:
-      required: false
-  - type: textarea
-    id: deps
-    attributes:
-      label: "Dependencies"
-      description: Does this feature depend on any other items being completed first?
-    validations:
-      required: false
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: "Mockups"
-      description: If applicable, add mockups.
-      value: |
-        ![DESCRIPTION](LINK.png)
     validations:
       required: false
